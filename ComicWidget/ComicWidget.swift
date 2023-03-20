@@ -79,6 +79,7 @@ struct ComicWidgetEntryView : View {
             Spacer()
         }
         .padding()
+        .widgetURL(URL(string: "https://xkcd.com/\(entry.comic.num)/"))
     }
 }
 
